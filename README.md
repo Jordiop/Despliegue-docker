@@ -26,7 +26,21 @@ En este paso, construiremos la imagen teniendo en cuenta nuestro .war, que será
 
 ## 3. Despliegue
 
-En teoría, tendríamos que poder depslegar nuestro contenedor docker con nuestro proyecto. Lo iniciamos pero por algún motivo desconocido, este no es capaz de reflejar nuestro frontend, dando como resultado esto:
+En teoría, tendríamos que poder depslegar nuestro contenedor docker con nuestro proyecto. Nos dirigimos a localhost:8008/GAI (gai es realmente el nombre de nuestro contenedor).
 
-![imagen](https://user-images.githubusercontent.com/95173613/172065619-059a63a6-69fd-4280-8f3b-e874d116989b.png)
+![imagen](https://user-images.githubusercontent.com/95173613/172066006-b5f4a608-711f-4755-b318-f1484c48b929.png)
+
+## 4. Docker-compose
+
+Ahora, tenemos que realizar un archivo .yml para hacer el docker-compose. 
+
+El código de dentro del archivo será:
+
+![imagen](https://user-images.githubusercontent.com/95173613/172066711-37e26cb6-24e6-4bf9-857b-48acd8b45a7d.png)
+
+Y ejecutaremos el comando
+
+`docker-compose up -d`
+
+## 5. Tendremos las 3 imágenes corriendo
 

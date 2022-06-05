@@ -53,3 +53,9 @@ En localhost:8081
 ## 6. Script SQL
 
 Para acabar de configurar nuestro Docker, necesitaremos que la Base de datos se configure en la ejecucion de Docker. Para ello, debemos poner el script de nuestra base de datos en la carpeta mysql-dump.
+
+## 7. Preparación de la imagen
+
+Una vez nos hemos acabado de pegar con la configuración, toca el premio. Si realizamos el comando `docker images` veremos nuestra imagen con etiqueta latest
+
+Debemos hacer `docker tag [nombre_repositorio] [nombre_usuario]/[nombre_imagen]` y luego `docker push [nombre_usuario]/[nombre_repositorio]`

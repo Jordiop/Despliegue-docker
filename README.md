@@ -59,3 +59,7 @@ Para acabar de configurar nuestro Docker, necesitaremos que la Base de datos se 
 Una vez nos hemos acabado de pegar con la configuración, toca el premio. Si realizamos el comando `docker images` veremos nuestra imagen con etiqueta latest
 
 Debemos hacer `docker tag [nombre_repositorio] [nombre_usuario]/[nombre_imagen]` y luego `docker push [nombre_usuario]/[nombre_repositorio]`
+
+![imagen](https://user-images.githubusercontent.com/95173613/172070344-c92c1c61-2bd6-45cc-a510-2c5cf644906e.png)
+
+Repositorio: https://hub.docker.com/repository/docker/jordiop/gai

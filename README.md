@@ -62,4 +62,6 @@ Debemos hacer `docker tag [nombre_repositorio] [nombre_usuario]/[nombre_imagen]`
 
 ![imagen](https://user-images.githubusercontent.com/95173613/172070344-c92c1c61-2bd6-45cc-a510-2c5cf644906e.png)
 
+Y finalmente tendremos creado nuestro repositorio con la imagen correspondiente.
+
 Repositorio: https://hub.docker.com/repository/docker/jordiop/gai

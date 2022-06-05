@@ -50,4 +50,6 @@ En localhost:8082/GAI
 En localhost:8081
 ![imagen](https://user-images.githubusercontent.com/95173613/172067666-84331e54-b667-4a9a-8ae3-71d5e045ee00.png)
 
+## 6. Script SQL
 
+Para acabar de configurar nuestro Docker, necesitaremos que la Base de datos se configure en la ejecucion de Docker. Para ello, debemos poner el script de nuestra base de datos en la carpeta mysql-dump.

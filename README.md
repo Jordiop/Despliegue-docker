@@ -42,5 +42,12 @@ Y ejecutaremos el comando
 
 `docker-compose up -d`
 
-## 5. Tendremos las 3 imágenes corriendo
+## 5. Resultado del docker compose
+
+En localhost:8082/GAI
+![imagen](https://user-images.githubusercontent.com/95173613/172067648-4cf52f5b-403a-4e14-b661-c0e4ea0f060c.png)
+
+En localhost:8081
+![imagen](https://user-images.githubusercontent.com/95173613/172067666-84331e54-b667-4a9a-8ae3-71d5e045ee00.png)
+
 
